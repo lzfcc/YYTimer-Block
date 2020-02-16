@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CE7D51223F988A700AFEA04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7D51123F988A700AFEA04 /* AppDelegate.m */; };
+		3CE7D51523F988A700AFEA04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7D51423F988A700AFEA04 /* ViewController.m */; };
+		3CE7D51723F988AC00AFEA04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CE7D51623F988AC00AFEA04 /* Assets.xcassets */; };
+		3CE7D51A23F988AC00AFEA04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE7D51823F988AC00AFEA04 /* Main.storyboard */; };
+		3CE7D51D23F988AC00AFEA04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7D51C23F988AC00AFEA04 /* main.m */; };
+		3CE7D52823F988E300AFEA04 /* YYTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7D52523F988E300AFEA04 /* YYTimer.m */; };
+		3CE7D52923F988E300AFEA04 /* YYTimer+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7D52723F988E300AFEA04 /* YYTimer+Block.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CE7D50D23F988A700AFEA04 /* YYTimer+Block.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YYTimer+Block.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CE7D51023F988A700AFEA04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3CE7D51123F988A700AFEA04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3CE7D51323F988A700AFEA04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3CE7D51423F988A700AFEA04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3CE7D51623F988AC00AFEA04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CE7D51923F988AC00AFEA04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CE7D51B23F988AC00AFEA04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CE7D51C23F988AC00AFEA04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CE7D51E23F988AC00AFEA04 /* YYTimer_Block.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YYTimer_Block.entitlements; sourceTree = "<group>"; };
+		3CE7D52423F988E300AFEA04 /* YYTimer+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YYTimer+Block.h"; sourceTree = "<group>"; };
+		3CE7D52523F988E300AFEA04 /* YYTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTimer.m; sourceTree = "<group>"; };
+		3CE7D52623F988E300AFEA04 /* YYTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTimer.h; sourceTree = "<group>"; };
+		3CE7D52723F988E300AFEA04 /* YYTimer+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YYTimer+Block.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CE7D50A23F988A700AFEA04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CE7D50423F988A700AFEA04 = {
+			isa = PBXGroup;
+			children = (
+				3CE7D50F23F988A700AFEA04 /* YYTimer+Block */,
+				3CE7D50E23F988A700AFEA04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CE7D50E23F988A700AFEA04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CE7D50D23F988A700AFEA04 /* YYTimer+Block.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CE7D50F23F988A700AFEA04 /* YYTimer+Block */ = {
+			isa = PBXGroup;
+			children = (
+				3CE7D52623F988E300AFEA04 /* YYTimer.h */,
+				3CE7D52523F988E300AFEA04 /* YYTimer.m */,
+				3CE7D52423F988E300AFEA04 /* YYTimer+Block.h */,
+				3CE7D52723F988E300AFEA04 /* YYTimer+Block.m */,
+				3CE7D51023F988A700AFEA04 /* AppDelegate.h */,
+				3CE7D51123F988A700AFEA04 /* AppDelegate.m */,
+				3CE7D51323F988A700AFEA04 /* ViewController.h */,
+				3CE7D51423F988A700AFEA04 /* ViewController.m */,
+				3CE7D51623F988AC00AFEA04 /* Assets.xcassets */,
+				3CE7D51823F988AC00AFEA04 /* Main.storyboard */,
+				3CE7D51B23F988AC00AFEA04 /* Info.plist */,
+				3CE7D51C23F988AC00AFEA04 /* main.m */,
+				3CE7D51E23F988AC00AFEA04 /* YYTimer_Block.entitlements */,
+			);
+			path = "YYTimer+Block";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CE7D50C23F988A700AFEA04 /* YYTimer+Block */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CE7D52123F988AC00AFEA04 /* Build configuration list for PBXNativeTarget "YYTimer+Block" */;
+			buildPhases = (
+				3CE7D50923F988A700AFEA04 /* Sources */,
+				3CE7D50A23F988A700AFEA04 /* Frameworks */,
+				3CE7D50B23F988A700AFEA04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YYTimer+Block";
+			productName = "YYTimer+Block";
+			productReference = 3CE7D50D23F988A700AFEA04 /* YYTimer+Block.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CE7D50523F988A700AFEA04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = bnu;
+				TargetAttributes = {
+					3CE7D50C23F988A700AFEA04 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 3CE7D50823F988A700AFEA04 /* Build configuration list for PBXProject "YYTimer+Block" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CE7D50423F988A700AFEA04;
+			productRefGroup = 3CE7D50E23F988A700AFEA04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CE7D50C23F988A700AFEA04 /* YYTimer+Block */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CE7D50B23F988A700AFEA04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE7D51723F988AC00AFEA04 /* Assets.xcassets in Resources */,
+				3CE7D51A23F988AC00AFEA04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CE7D50923F988A700AFEA04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE7D51523F988A700AFEA04 /* ViewController.m in Sources */,
+				3CE7D51D23F988AC00AFEA04 /* main.m in Sources */,
+				3CE7D51223F988A700AFEA04 /* AppDelegate.m in Sources */,
+				3CE7D52923F988E300AFEA04 /* YYTimer+Block.m in Sources */,
+				3CE7D52823F988E300AFEA04 /* YYTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3CE7D51823F988AC00AFEA04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CE7D51923F988AC00AFEA04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CE7D51F23F988AC00AFEA04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3CE7D52023F988AC00AFEA04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3CE7D52223F988AC00AFEA04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "YYTimer+Block/YYTimer_Block.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3659NHFYK4;
+				INFOPLIST_FILE = "YYTimer+Block/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lzf.YYTimer-Block";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CE7D52323F988AC00AFEA04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "YYTimer+Block/YYTimer_Block.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3659NHFYK4;
+				INFOPLIST_FILE = "YYTimer+Block/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lzf.YYTimer-Block";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CE7D50823F988A700AFEA04 /* Build configuration list for PBXProject "YYTimer+Block" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CE7D51F23F988AC00AFEA04 /* Debug */,
+				3CE7D52023F988AC00AFEA04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CE7D52123F988AC00AFEA04 /* Build configuration list for PBXNativeTarget "YYTimer+Block" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CE7D52223F988AC00AFEA04 /* Debug */,
+				3CE7D52323F988AC00AFEA04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CE7D50523F988A700AFEA04 /* Project object */;
+}
